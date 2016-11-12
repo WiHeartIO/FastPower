@@ -1,0 +1,25 @@
+
+.page1 {
+	position: relative;
+	height: 100vh;
+}
+
+.page1 #story {
+	float: left;
+	margin-left: 50px;
+	width: 550px;
+}
+
+.page1 #photo {
+	float: right;
+	margin-right: 50px
+}
+
+#figure1 {
+	width: 400px; 
+	height: 450px;
+	border-radius: 5px;
+}
+
+
+/******** End of Settng of Figure 1 **********/

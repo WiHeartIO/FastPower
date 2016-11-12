@@ -38,6 +38,25 @@
 }
 
 #figure1 {
+	width: 140px; 
+	height: 140px;
+}
+
+#app-store {
+	text-align: center;
+}
+
+#apple-store {
+	width: 135px; 
+	height: 40px;	
+}
+
+#google-play {
+	width: 135px; 
+	height: 44px;		
+}
+
+#figure2 {
 	width: 400px; 
 	height: 450px;
 	border-radius: 5px;

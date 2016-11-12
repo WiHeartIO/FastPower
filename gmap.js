@@ -41,9 +41,10 @@
 	          title: s.name
 	        });
 
-				  marker.addListener('click', function() {
-				    infowindow.open(map, marker);
-				    // infowindow.close();
-				  });
+	        // 因為目前無法讓前一個 marker 關起來
+				  // marker.addListener('click', function() {
+				  //   infowindow.open(map, marker);
+				  //   // infowindow.close();
+				  // });
         })				  	 
       }

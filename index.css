@@ -17,6 +17,9 @@
     color: white;
 }
 
+/******** End of Settng of Top NavBar **********/
+
+
 
 .page1 {
 	position: relative;
@@ -40,5 +43,13 @@
 	border-radius: 5px;
 }
 
-
 /******** End of Settng of Figure 1 **********/
+
+
+
+.page2 {
+	position: relative;
+	height: 100vh;
+}
+
+/******** End of Settng of Figure 2 **********/

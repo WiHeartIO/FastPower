@@ -1,0 +1,144 @@
+
+body{	
+	background-color: black;			
+	margin: 0;
+	padding: 0;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	word-wrap:break-word;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}	
+.pages{
+	height: 120%;		
+}	
+#page2 {
+	background: black;
+	height: 200%;			
+}
+#page2 #figure{
+	background: black;	
+	text-align: center;		
+	font-size: 24px;		
+}
+#page3 {
+	background: #1D1B1B;
+	height: 120%;	
+}
+#page4_1 {
+	background: black;
+	height: 100%;
+}			
+#page5 {
+	background: #1D1B1B;
+	height: 150%;
+}
+#page6 {
+	background: black;
+	height: 100%;
+}
+#page7 {
+	background: #1D1B1B;
+	height: 80%;	
+	font-size: 24px;			
+}
+#footer {
+	 height: 50px; 
+	 background: #1D1B1B;
+	 text-align: center;
+}			
+.container {
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 3%;
+}
+#pic{
+	left: 400px;
+	top: 0px;
+	float: left;    		
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+	border-radius: 5px;
+	width: 450px;
+	height: 550px;
+	margin-right: 0;
+}
+#about_us img {
+	width: 150;
+	height: 200;
+	margin-top: 50px;
+}
+#footer img {
+	width: 80px;
+	height: 15px;
+}
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+.introduct{
+	margin-left: auto;				
+	float: right;
+	height: 300px;
+	width: 300px;
+	font-size: 24px;
+}			
+#story {
+	font-size: 24px;
+	width: 750px;
+}
+#content {
+	width: 720px;
+	margin-left: 1%;
+}
+#wayne , #veck {
+	float: left;
+	width: 260px;
+	margin-right: 12%;
+}			
+#advisor{
+	float: left;
+	margin-top: 40px;
+	font-size: 20px;
+	font-style: bold;
+}
+#advisor ul {
+	list-style-type: circle;
+}
+#advisor li {				
+	line-height: 200%
+}
+#advisor p {
+	font-size: 24px;
+}
+form {
+	width: 300px;
+	height: 100px;
+}
+ul {
+	list-style-type: circle;
+}
+#goal_list {
+	margin-top: 45px;
+	line-height: 200%;			
+	font-size: 24px;				
+}
+
+@media screen and (max-width: 1100px) {
+	.pages {
+		width: 1100px;
+		height: 150%;
+	}	
+	#page3, #page6, #page7{
+		width: 1100px;
+		height: 150%;
+	}
+	#page4_1 {
+		width: 100%;
+		overflow-y: auto; 
+	}
+}	

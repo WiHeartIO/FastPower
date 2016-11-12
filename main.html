@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>X-1</title>
+		<link rel="stylesheet" href="reset.css">
+		<link href='main.css' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<!-- Page 2-->
+		<div id="page2" class="pages">
+			<div class="container">				
+				<div id="story" class="uni-padding">
+				<h1>Fast Power</h1><br>
+
+				印象中的手機電力好像已經不行了，怎麼會這樣子？<br><br>
+
+				放下心中的困惑，在繁忙的城市與遠程旅行裡徘徊， Fast Power 將隨時替您解決手機充電與移動的問題．<br><br>
+
+				透過 Fast Power，您可以前往 Fast Power 合作店家借走 Fast Power 的行動電源，並且在您所購買的預租時數或月租期限內於任何 Fast Power 合作店家歸還 Fast Power 的行動電源．<br><br>
+
+				帶著 Fast Power，喝杯咖啡，過往的畫面一幕幕浮現．或許是帶著 Fast Power 行動電源來一趟小旅行的時候了！<br><br>
+
+				看著窗外的世界，看著路人的側臉，看著四季在樹梢上的風味發呆著，過往的回憶像是失去電力的手機一般，離開了應該存在的季節，直到遇到 Fast Power，我們只能加速在人生的路上超越，帶著 Fast Power 繼續充電，許久未放晴的天空迫不及待地展現了美麗的笑容．
+				</div>
+				<br><br><br>
+				<div id="figure" hidden>
+					<img src="1.JPG"><br><br>
+					Fast Power 解決您移動充電的煩惱
+				</div>
+			</div>
+		</div>
+		<!-- End of Page 2-->
+
+		<!-- Page 7-->
+		<div id="page7" class="">
+			<div class="container" id="donation" hidden>
+				<h1>Contribution</h1><br>
+				<p>By contributing to the X-1 project to help create a better solution to your charging anxiety right away!
+				<br><br>
+				With your contribution, the X-1 project can be further developed and commercialized. Thank you very much!
+				</p>
+				<br>
+				<p>Email：<a href="mailto:jung@wiheart.io?Subject='X-1 Project Mail'" target="_top" style="text-decoration: none; color: white;">jung@wiheart.io</a></p>
+				<br>				
+		</div>
+		</div>
+		<!-- End of Page 7-->	
+
+		<div id="footer">
+			This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br>
+			Copyright 2016 © All Right Reserved WiHeart &nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png" /></a>
+		</div>
+
+		<script>
+
+			$(document).ready(function(){
+				$('#story').fadeIn(2000);
+				$('#figure').fadeIn(2000);
+			});
+
+
+			$(window).scroll(function() {
+			 	var position = $(window).scrollTop();   
+   			if(position >= 800 && position < 1500) { // show page3
+   				if($('#frontX').is(":visible")  == false){
+   					$('#frontX').fadeIn(800);
+   				}
+       	} 
+			});
+
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-44048995-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

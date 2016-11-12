@@ -24,3 +24,27 @@
 	margin-top: 10px;
 	width: 20px;
 }
+
+/******** End of Settng of Top NavBar **********/
+
+#figure2 {
+	width: 90vw; 
+	border-radius: 5px;
+}
+
+#apple-store {
+	width: 135px; 
+	height: 40px;	
+}
+
+#google-play {
+	width: 135px; 
+	height: 44px;		
+}
+
+/******** End of Settng of Page1 **********/
+
+
+.page2 {
+	margin-bottom: 100px;
+}

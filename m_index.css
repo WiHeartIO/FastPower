@@ -1,39 +1,26 @@
 
-/* Portrait and Landscape */
-body {
-	margin: 0;
-	font-family: 'Poiret One', cursive;
+.top-navbar { 
+	background-color: #479AC7;
+}
+
+/* override */
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+/* override */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* override */
+.glyphicon {
 	color: white;
+	float: right;
 }
-#desktop {
-	font-size: 30px;
-	text-align: right;
-	padding-right: 20px;
-}
-#desktop a {
-	color: lightblue;
-	text-decoration: none;
-}
-#container {
-	width: 100%;
-	height: 100%;
-	background: black;
-	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	overflow: auto;
-}
-#container img {	
-	width: 100%;
-	padding-right: 0;
-}
-.uni-padding {
-	padding-left: 30px;
-	padding-right: 20px;
-}
-#figure1 {
-	text-align: center;
-}
-@media only screen and (min-width: 375px) {
-   body { font-size: 2em; } /* font-size won't responsive so that we should declare */
+
+/* override */
+.glyphicon-menu-hamburger{
+	margin-top: 10px;
+	width: 20px;
 }

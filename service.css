@@ -1,12 +1,14 @@
 
-#story{
-	width: 100vw
-}
 
 .media-object {
 	width: 200px;
+	border-radius: 5px;
 }
 
 .media-body{
 	font-size: 16px;
+}
+
+.page1 #story {
+	width: 90%;
 }

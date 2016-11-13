@@ -1,0 +1,13 @@
+
+.container {
+	width: 80vw;
+}
+
+.panel-title{
+	font-size: 28px;
+}
+
+ul#abc {
+	list-style-type: none;
+	margin:0px;
+}

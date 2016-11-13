@@ -17,5 +17,6 @@ th, tr {
 	width: 50%;
 }
 
-
-
+#buy_btn a:hover {
+	text-decoration: none;
+}

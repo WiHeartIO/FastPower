@@ -1,0 +1,36 @@
+
+#left-login {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#login-form {
+	width: 50%;
+	margin: auto;	
+}
+
+#login-form input {
+	text-align: center;
+}
+
+#right-register {
+	width: 50%;
+	height: 35vw;
+	float: right;
+	text-align: center;
+	border-left: solid 1px;
+}
+
+#register-form {
+	width: 50%;
+	margin: auto;	
+}
+
+#register-form input {
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+}

@@ -11,3 +11,8 @@ ul#abc {
 	list-style-type: none;
 	margin:0px;
 }
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}

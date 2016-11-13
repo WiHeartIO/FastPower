@@ -1,0 +1,21 @@
+
+.container {
+	width: 80vw;	
+}
+
+
+th, tr {
+	text-align: center;
+}
+
+/* 
+ * 要讓在 div 中的 button 置中
+ * 用 margin: auto 來讓瀏覽器自己計算 width: 50% 時左右各要自動縮多少即可 
+ */
+#buy_btn {
+	margin: auto;
+	width: 50%;
+}
+
+
+

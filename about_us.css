@@ -1,4 +1,8 @@
 
+.container {
+	width: 80vw;
+}
+
 .page #story {
 	float: left;
 	margin-left: 50px;
@@ -10,6 +14,13 @@
 	font-size: 28px;
 }
 
+.panel-body {
+	font-size: 18px;
+}
+#content {
+	float: left;
+	width: 500px;
+}
 #logo {
 	text-align: center;
 }

@@ -9,13 +9,10 @@ tr, th {
 
 #left-login {
 	text-align: center;
-}
-
-#login-form {
 	width: 50%;
 	margin: auto;	
 }
 
-#login-form input {
+#left-login input {
 	text-align: center;
 }

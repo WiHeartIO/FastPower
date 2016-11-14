@@ -36,7 +36,9 @@ function checkAuthCode(){
 	     	}
 	    },
 	    error: function (xhr, ajaxOptions, thrownError) {
-	         console.log(xhr.status, xhr.responseText);
+		  	$('#loading').hide()
+				$('#submit').show()	    	
+	      console.log(xhr.status, xhr.responseText);
 	    }
 	 });
 	} else {

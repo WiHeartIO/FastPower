@@ -17,7 +17,7 @@ function checkForm(){
 				alert('商家名稱不得為空')
 			} else {
 				$.ajax({
-			    url: 'http://fastpower.herokuapp.com/site/apply',
+			    url: 'https://fastpower.herokuapp.com/site/apply',
 			    type: "POST",
 			    dataType: "json",
 			    data: { name: name, phone: phone, email: email },

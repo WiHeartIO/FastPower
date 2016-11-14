@@ -9,7 +9,8 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
 		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-		<link href='index.css' rel='stylesheet' type='text/css'>		
+		<link href='index.css' rel='stylesheet' type='text/css'>
+		<link href='qa.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
 	</head>
 	<body>
@@ -43,13 +44,171 @@
 			</div>
 		</nav>
 
-		<!-- Page 1-->
-		<div class="container page1">
-			<div id="story" class="uni-padding">
-				<h1>常見問題</h1><br>
+		<div class="container">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  
+			  <!-- Q1 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          Fast Power提供什麼服務？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+						Fast Power‭ ‬提供您快速的電池借還服務，您不再需要自行充行動電源，或犧牲移動性尋找插座等待充電進度。您只要購買本服務方案便可享受快速電力支援您的移動性。
+			      </div>
+			    </div>
+			  </div>
+				<!-- end of Q1-->
 
-			<div id="photo">
-				<img id="figure2" src="1.jpg">
+				<!-- Q2 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          Fast Power‭ ‬營運範圍‭?‬
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+			        目前服務據點包含捷運忠孝復興站，南京復興站，中山國中站，松山機場站，小巨蛋站，市政府站，以及迪化街，陽明山與淡水。
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q2-->
+
+			  <!-- Q3 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			        如何註冊會員？  
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">			        
+							輸入您的手機號碼與姓名，一分鐘內輸入‭ ‬Fast Power‭ ‬所派發的認證簡訊以後，您即可以成為會員使用服務
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q3 -->
+
+			  <!-- Q4 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingFour">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			          如何租借？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+			      <div class="panel-body">
+			        購買預租方案以後，即可進行租借歸還流程。租借時掃描行動電源‭ ‬QR Code，歸還時掃描店家‭ ‬QR Code。
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q4 -->
+
+			  <!-- Q5 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingFive">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			          若行動電源電力用盡？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+			      <div class="panel-body">
+			        您可選擇歸還行動電源後由店家充電，您也可選擇使用已購預租時數或月費方案自行充電。
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q5 -->
+
+			  <!-- Q6 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingSix">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+			          任何‭ ‬Fast Power‭ ‬合作店家都可以歸還？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+			      <div class="panel-body">
+			        沒錯。
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q6 -->
+
+			  <!-- Q7 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingSeven">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+			          如果行動電源損壞？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+			      <div class="panel-body">
+			        請先將問題行動電源留置於合作店家並聯繫本公司，本公司將協助進行後續處理
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q7 -->
+
+			  <!-- Q8 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingEight">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+			          為何晚間有時地圖上的站點消失？
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+			      <div class="panel-body">
+			        本服務營運時間一般而言為早上 11:30 am – 20:00 pm‭ ‬（台灣時間），並且會根據站點實際的營運時間做調整
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q8 -->
+
+
+			  <!-- Q9 -->
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingNine">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+			        退款方案？  
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+			      <div class="panel-body">
+			        
+							一旦您決定取消您所購買的方案，您必須寄送電子郵件至本公司以清晰地提出您的需求，包含您的姓名，註冊帳號，以及退款原因。一旦您完成了上述流程，本公司將進一步協助您退款。‭ ‬退款公式如下：<br><br>
+							<strong>預租時數方案：</strong><br>
+							<code>退款金‭ =‬（已購預租小時方案價x 50%）-（已用租借時數‭ ‬x‭ ‬解約金）</code><br><br>
+							<strong>月租方案：</strong><br>
+							<code>退款金‭ =‬（已購月租方案價x 50%）-（已用月租天數‭ ‬x‭ ‬解約金‭)‬</code>
+			      </div>
+			    </div>
+			  </div>
+			  <!-- end of Q9 -->			  			  			  
+
+				<br>
+				更多資訊請參閱<a href="terms_of_service.html">使用條款</a>
+
 			</div>
 		</div>
 		<!-- End of Page 1-->

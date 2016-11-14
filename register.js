@@ -19,7 +19,7 @@ function checkForm(){
 					alert('姓名不得為空')
 				} else {
 					$.ajax({
-				    url: 'http://fastpowerdev.herokuapp.com/client/register',
+				    url: 'http://fastpower.herokuapp.com/client/register',
 				    type: "POST",
 				    dataType: "json",
 				    data: { uid: uid, pwd: pwd1, username: realName },

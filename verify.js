@@ -18,7 +18,7 @@ function checkAuthCode(){
 
 	if(code != ''){		
 		$.ajax({
-	    url: 'http://fastpowerdev.herokuapp.com/client/auth_code',
+	    url: 'http://fastpower.herokuapp.com/client/auth_code',
 	    type: "POST",
 	    dataType: "json",
 	    data: { uid: uid, code: code },

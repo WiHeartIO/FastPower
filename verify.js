@@ -10,13 +10,14 @@ function parseUid(){
 
 function checkAuthCode(){
 
-	$('#submit').hide()
-	$('#loading').show()
-
 	var code = $('#auth-code')[0].value
 	var uid = parseUid()[0]
 
 	if(code != ''){		
+
+		$('#submit').hide()
+		$('#loading').show()
+		
 		$.ajax({
 	    url: 'https://fastpower.herokuapp.com/client/auth_code',
 	    type: "POST",

@@ -1,0 +1,18 @@
+
+.container {
+	width: 70vw;	
+}
+
+
+#left-login {
+	text-align: center;
+}
+
+#login-form {
+	width: 50%;
+	margin: auto;	
+}
+
+#login-form input {
+	text-align: center;
+}

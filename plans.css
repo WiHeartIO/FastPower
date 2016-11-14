@@ -3,6 +3,9 @@
 	width: 80vw;	
 }
 
+.jumbotron {
+	padding-top: 10px;
+}
 
 th, tr {
 	text-align: center;

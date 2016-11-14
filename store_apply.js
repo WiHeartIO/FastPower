@@ -1,9 +1,6 @@
 
 function checkForm(){
 
-	$('#submit').hide()
-	$('#loading').show()
-
 	var name = $('#name')[0].value
 	var phone = $('#phone')[0].value
 	var email = $('#email')[0].value
@@ -16,6 +13,9 @@ function checkForm(){
 			if(name == ''){
 				alert('商家名稱不得為空')
 			} else {
+					$('#submit').hide()
+					$('#loading').show()
+					
 				$.ajax({
 			    url: 'https://fastpower.herokuapp.com/site/apply',
 			    type: "POST",

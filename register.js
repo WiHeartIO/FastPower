@@ -1,9 +1,6 @@
 
 function checkForm(){
 
-	$('#submit').hide()
-	$('#loading').show()
-
 	var uid = $('#uid')[0].value
 	var pwd1 = $('#pwd1')[0].value
 	var pwd2 = $('#pwd2')[0].value
@@ -18,8 +15,12 @@ function checkForm(){
 				if(realName == ''){
 					alert('姓名不得為空')
 				} else {
+
+					$('#submit').hide()
+					$('#loading').show()
+
 					$.ajax({
-				    url: 'http://fastpower.herokuapp.com/client/register',
+				    url: 'https://fastpower.herokuapp.com/client/register',
 				    type: "POST",
 				    dataType: "json",
 				    data: { uid: uid, pwd: pwd1, username: realName },

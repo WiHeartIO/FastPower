@@ -10,7 +10,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
 		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='index.css' rel='stylesheet' type='text/css'>
-		<link href='member.css' rel='stylesheet' type='text/css'>
+		<link href='store.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
 	</head>
 	<body>
@@ -25,8 +25,8 @@
 		    <ul class="nav navbar-nav navbar-right">
 	        <li><a href="about_us.html">關於我們</a></li>
 	        <li><a href="service.html">服務介紹</a></li>
-	        <li><a href="#">會員專區</a></li>			<!-- 會員註冊、資料查詢-->
-	        <li><a href="store.html">商家專區</a></li>
+	        <li><a href="member.html">會員專區</a></li>			<!-- 會員註冊、資料查詢-->
+	        <li><a href="#">商家專區</a></li>
 	        <li><a href="plans.html">購買方案</a></li>	        
 	        <li><a href="qa.html">常見問題</a></li>
 	        <li><a href="en/member.html">English</a></li>
@@ -48,10 +48,9 @@
 		<div class="container">
 			<div class="panel panel-default">
 	  		<div class="panel-body">
-
-	  			<!-- 左邊表單 -->
-	  			<div id="left-login">
-	  				<h3>商家登入</h3><br><br>	<!-- 登入後才可查詢會員資料與租借記錄 -->
+	  				<h3>商家專區</h3>	<br>
+	  				<a href="store_apply.html" class="to-register">商家申請合作</a>
+	  				<br><br>
 	  				<form id="login-form" action="#" method="post">
 						  <div class="form-group">
 						    <label for="uid">手機</label>
@@ -62,22 +61,8 @@
 						    <input type="password" class="form-control" id="pwd" placeholder="請輸入密碼">
 						  </div>
 						  <br>
-						  <button type="submit" class="btn btn-default">送出</button>
-						</form>
-	  			</div>
-
-					<!-- 右邊表單 -->
-	  			<div id="right-register">
-	  				<h3>註冊會員</h3><br><br>
-	  				<a href="terms_of_service.html">會員使用條款</a>
-	  				<div class="checkbox">
-					    <input type="checkbox" id="agreement">
-					    <label style="padding-left: 0;">我已詳閱且同意 Fast Power 會員使用條款</label>
-					  </div>
-	  				<!-- 勾選確認後下方 slideDown 表單 -->
-	  				<br><br>
-						<a href="register.html" class="to-register" hidden><button type="submit" class="btn btn-default">填寫資料</button></a>
-	  			</div>	    	
+						  <button type="submit" class="btn btn-default">登入</button>
+						</form>	
 	  		</div>
 			</div>
 		</div>
@@ -85,6 +70,6 @@
 
 		<footer>Copyright © 2016 WiHeart, LLC. All right reserved.</footer>
 
-		<script src="member.js"></script>
+		<script src="store.js"></script>
 	</body>
 </html>

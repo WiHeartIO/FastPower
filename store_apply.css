@@ -3,6 +3,9 @@
 	width: 70vw;	
 }
 
+tr, th {
+	text-align: center;
+}
 
 #left-login {
 	text-align: center;

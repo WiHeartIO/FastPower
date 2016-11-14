@@ -11,6 +11,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='index.css' rel='stylesheet' type='text/css'>
 		<link href='register.css' rel='stylesheet' type='text/css'>
+		<link href='loading.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
 	</head>
 	<body>
@@ -26,7 +27,7 @@
 	        <li><a href="about_us.html">關於我們</a></li>
 	        <li><a href="service.html">服務介紹</a></li>
 	        <li><a href="member.html">會員專區</a></li>			<!-- 會員註冊、資料查詢-->
-	        <li><a href="store_apply.html">商家申請</a></li>
+	        <li><a href="store.html">商家專區</a></li>
 	        <li><a href="plans.html">購買方案</a></li>	        
 	        <li><a href="qa.html">常見問題</a></li>
 	        <li><a href="en/member.html">English</a></li>
@@ -49,7 +50,6 @@
 			<h3>會員註冊</h3>		
 			<div class="panel panel-default">
 	  		<div class="panel-body">
-	  				<form id="register-form" action="#" method="post" onsubmit="return checkForm(this)">
 						  <div class="form-group">
 						    <label for="uid">手機</label>
 						    <input type="text" name="uid" class="form-control" id="uid" placeholder="請輸入手機號碼" required>
@@ -67,8 +67,8 @@
 						    <input type="text" name="realName" class="form-control" id="real-name" placeholder="請輸入您的真實姓名" required>
 						  </div>
 						  <br>						 						  
-						  <button type="submit" class="btn btn-default">送出</button>
-						</form>
+						  <button class="btn btn-default" id="submit" onclick="return checkForm(this)">送出</button>
+						  <object type="image/svg+xml" data="loading.svg" id="loading" witdth="5px" hidden></object>
 	  		</div>
 			</div>
 		</div>

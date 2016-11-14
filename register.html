@@ -1,18 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="og:description" content="Fast Power 行動充電站" >
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>會員專區 - Fast Power 行動電源租借</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='index.css' rel='stylesheet' type='text/css'>
+		<link href='register.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
+	</head>
+	<body>
 
-	  				<form id="register-form" action="https" method="post" hidden>
+		<!-- Top Navbar -->
+		<nav class="navbar navbar-default top-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">		     
+		      <a class="navbar-brand" href="index.html">Fast Power</a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+	        <li><a href="about_us.html">關於我們</a></li>
+	        <li><a href="service.html">服務介紹</a></li>
+	        <li><a href="member.html">會員專區</a></li>			<!-- 會員註冊、資料查詢-->
+	        <li><a href="store_apply.html">商家申請</a></li>
+	        <li><a href="plans.html">購買方案</a></li>	        
+	        <li><a href="qa.html">常見問題</a></li>
+	        <li><a href="en/member.html">English</a></li>
+	        <!-- <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li> -->
+      	</ul>
+			</div>
+		</nav>
+
+		<!-- Page 1-->
+		<div class="container">
+			<h3>會員註冊</h3>		
+			<div class="panel panel-default">
+	  		<div class="panel-body">
+	  				<form id="register-form" action="#" method="post" onsubmit="return checkForm(this)">
 						  <div class="form-group">
 						    <label for="uid">手機</label>
-						    <input type="text" class="form-control" id="uid" placeholder="請輸入手機號碼">
+						    <input type="text" name="uid" class="form-control" id="uid" placeholder="請輸入手機號碼" required>
 						  </div>
 						  <div class="form-group">
-						    <label for="pwd">密碼 (6~12英數混合，不可含符號)</label>
-						    <input type="password" class="form-control" id="pwd" placeholder="請輸入密碼">
+						    <label for="pwd1">密碼 (6~12英數混合，不可含符號)</label>
+						    <input type="password" name="pwd" class="form-control" id="pwd1" placeholder="請輸入密碼" required>
 						  </div>
-						  <br>
 							<div class="form-group">
-						    <label for="pwd">確認密碼</label>
-						    <input type="password" class="form-control" id="pwd" placeholder="請輸入密碼">
+						    <label for="pwd2">確認密碼</label>
+						    <input type="password" class="form-control" id="pwd2" placeholder="請輸入密碼" required>
 						  </div>
-						  <br>						  
+							<div class="form-group">
+						    <label for="real-name">真實姓名</label>
+						    <input type="text" name="realName" class="form-control" id="real-name" placeholder="請輸入您的真實姓名" required>
+						  </div>
+						  <br>						 						  
 						  <button type="submit" class="btn btn-default">送出</button>
 						</form>
+	  		</div>
+			</div>
+		</div>
+		<!-- End of Page 1-->
+
+		<footer>Copyright © 2016 WiHeart, LLC. All right reserved.</footer>
+
+		<script src="register.js"></script>
+	</body>
+</html>

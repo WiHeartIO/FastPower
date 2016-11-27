@@ -10,12 +10,15 @@
 /* override font color */
 .navbar-default .navbar-brand {
     color: white;
+    font-size: 25px;
 }
 
 /* override font color */
 .navbar-default .navbar-nav > li > a {
     color: white;
+    font-size: 18px;
 }
+
 
 /******** End of Settng of Top NavBar **********/
 

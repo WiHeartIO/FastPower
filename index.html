@@ -9,7 +9,7 @@
 		<script src="mdetect.js"></script><!-- detect visitor is viewing by mobile or desktop -->
 		<script>
 		$(document).ready(function(){
-				if(MobileEsp.isIphone == true){
+				if(MobileEsp.isIphone == true || MobileEsp.isAndroidPhone == true){
 					window.location = 'm_index.html';
 				}
 			})
